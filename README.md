@@ -55,6 +55,10 @@ So that I can read my previous entries
 I want to click on a title to see the full Diary Entry
 ```
 
+Classes:
+
+Diary
+
 ### Should Have
 
 ```
@@ -88,3 +92,5 @@ I want to be able to filter Diary Entries by Tag
 ```
 
 ## Design
+
+![Domain model](images/daily_diary_model.JPG)
