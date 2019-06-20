@@ -1,5 +1,6 @@
 <h1>Diary entries</h1>
 <ul>
-  <li>Haircut</li>
-  <li>Cool bike ride</li>
+  <% @entries.each do |title| %>
+  <li><%= title %></li>
+  <% end %>
 </ul>
