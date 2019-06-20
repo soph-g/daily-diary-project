@@ -22,11 +22,11 @@ $ rackup
 1. Connect to psql (`psql` in the command line)
 2. Create the database
 ```
-# CREATE DATABASE diary_manager;
+# CREATE DATABASE daily_diary;
 ```
 3. Connect to the database
 ```
-# \c diary_manager
+# \c daily_diary
 ```
 4. Run the SQL scripts in `db/migrations` folder in the given order
 
