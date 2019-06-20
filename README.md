@@ -39,6 +39,10 @@ I will implement the 'must have' specifications first before moving onto the 'sh
 
 ```
 As a user
+So that I can browse my previous entries
+I want to see a list of Diary Entry Titles
+
+As a user
 So that I can keep a daily diary
 I want to be able to add a new Diary Entry
 
@@ -47,17 +51,22 @@ So that I can identify my entry in future
 I want to give each Diary Entry a title
 
 As a user
-So that I can browse my previous entries
-I want to see a list of Diary Entry Titles
-
-As a user
 So that I can read my previous entries
 I want to click on a title to see the full Diary Entry
 ```
 
-Classes:
+Breaking these user stories down into a domain model:
 
-Diary
+| Objects | Methods |
+| ------- | ------- |
+| DiaryEntry | .all |
+| | .create |
+
+And our database structure would be like this:
+
+| id  | title | body |
+|:---:| ----- | ---- |
+|  1  | Good day | Today was a good day |
 
 ### Should Have
 
