@@ -6,7 +6,12 @@ The full instructions I was given for this project can be found in `project-inst
 
 ## Progress
 
-I have introduced 3 of the 4 must have features - users can view a list of diary entry titles, add a new diary entry and title it. I would have added a test that visits '/entries', clicks on a diary entry title and expect the page you're on to have the body of the diary entry. I would have implemented this by in the view by adding an anchor and href to each of the diary entry titles. I also would have added getter methods for an instance of a diary entry which would have displayed the title and body of the entry on the linked page.
+I have introduced 3 of the 4 must have features - users can:
+* view a list of diary entry titles
+* add a new diary entry
+* give a title to an entry they create
+
+If I had more time I would have added a test that visits '/entries', clicks on a diary entry title and expect the page you're on to have the body of the diary entry. I would have then implemented this by adding an anchor and href to each of the diary entry titles in the `entries` view. I also would have added getter methods for an instance of a diary entry which would have displayed the title and body of the entry on the linked page.
 
 ## Set-up
 
