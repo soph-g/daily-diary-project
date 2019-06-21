@@ -66,8 +66,8 @@ And our database structure would be like this:
 
 | id  | title | body |
 |:---:| ----- | ---- |
-|  1  | Good day | Today was a good day |
-|  2  | Haircut | I got a snazzy haircut |
+|  1  | Haircut | I got a snazzy haircut |
+|  2  | Cool bike ride | I popped a wheelie! |
 
 ### Should Have
 
