@@ -9,4 +9,12 @@ describe DiaryEntry do
       expect(entries).to include("Cool bike ride")
     end
   end
+
+  describe '.create' do
+    it 'adds a new entry to the database' do
+      entry = DiaryEntry.create(title: 'Bad day', body: 'I forgot my umbrella and was splashed by a puddle :(')
+
+      expect(DiaryEntry.all).to include('Bad day')
+    end
+  end
 end
