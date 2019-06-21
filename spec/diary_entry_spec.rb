@@ -3,6 +3,9 @@ require 'diary_entry'
 describe DiaryEntry do
   describe '.all' do
     it 'returns all diary entry titles' do
+      DiaryEntry.create(title: "Haircut", body: "I got a snazzy new haircut")
+      DiaryEntry.create(title: "Cool bike ride", body: "I popped a wheelie!")
+
       entries = DiaryEntry.all
 
       expect(entries).to include("Haircut")

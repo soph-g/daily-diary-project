@@ -62,6 +62,8 @@ Breaking these user stories down into a domain model:
 | ------- | ------- |
 | DiaryEntry | .all |
 | | .create |
+| | #title |
+| | #body |
 
 And our database structure would be like this:
 
