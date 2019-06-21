@@ -1,0 +1,9 @@
+<h1>Diary entries</h1>
+<ul>
+  <% @entries.each do |title| %>
+  <li><%= title %></li>
+  <% end %>
+</ul>
+<form action="/entries/new" method="get">
+  <input type="submit" value="New entry">
+</form>
