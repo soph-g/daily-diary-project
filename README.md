@@ -29,6 +29,7 @@ $ rackup
 # \c daily_diary
 ```
 4. Run the SQL scripts in `db/migrations` folder in the given order
+5. Enter `\q` to exit
 
 ## Approach
 
